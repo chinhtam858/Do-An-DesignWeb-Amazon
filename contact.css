@@ -1,0 +1,397 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Times,serif;
+    font-weight:400;
+    overflow-x: hidden;
+}
+.container
+{
+    display: flex;
+}
+.navbar 
+{   
+    font-weight: 700;
+    padding: 0;
+    padding-bottom: 14px;
+    padding-left: 195px;
+    margin-bottom: 0;
+    background-color: #fff;
+    z-index: 3;
+    position: fixed;
+    border-top: 1px ;
+    border-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 0;
+    border-radius: 0;
+    display: flex;
+    justify-content:space-between;
+    box-shadow: 5px -6px 18px black;
+}
+.navbar-brand img
+{
+    height: 32px;
+    position: relative;
+    top: 8px;
+    right: 140px;
+}
+.navbar-nav
+{
+    position: relative;
+    right: 110px;
+    top: 10px;
+    font-size: 21px;
+}
+.timkiem {
+    position: relative;
+    top: 0;
+    left: 45px;
+}
+.timkiem:hover {
+    color: #0099D9;
+}
+.button 
+{   
+    background-color: #f90;
+    border: 2px solid #f90;
+    color:#232F3E;
+    cursor: pointer;
+    padding: 6px 16px ;
+    text-align: center;
+    position: relative;
+    top: 7px;
+    left: 25px;
+    border-radius: 100px;
+    box-shadow: 0 0 5px;
+}
+.button:hover 
+{  
+    background-color: #f90;
+    color:#232f3e;
+    box-shadow: 0 0 10px;
+}
+button:focus
+{
+    border: 2px solid #F90;
+}
+.a
+{   
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0;
+    color: #232f3e;
+}
+.dropdown-menu
+{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    border-radius: 12px;
+}
+.dropdown-toggle:hover
+{
+    border-bottom: 4px solid #0098D7;
+    border-radius: 2px;
+}
+.dropdown-menu a:hover
+{
+    border-left: 4px solid #0099d9;
+    border-radius: 3px ;
+    background-color: #fff;
+    color: #000;
+}
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}
+.jumbotron_contact
+{
+    background-color: #EBF8FA;
+    color: #232F3e;
+    height: 443px;
+    position:relative;
+    top: 70px;
+}
+.h-jumbo_contact
+{
+    font-size: 68px;
+    color: #232F3E;
+    font-weight: 550;
+    word-spacing: -4px;
+    position: relative;
+    top: 75px;
+    left: 80px;
+}
+.p-jumbo_contact
+{
+    font-size: 18.5px;
+    color: #232F3E;
+    position: relative;
+    top: 80px;
+    left: 80px;
+    line-height: 24px;
+}
+.img-jumbo_contact
+{
+    height: 300px;
+    width: auto;
+    position: relative;
+    top: 54px;
+    left: 105px;
+}
+.thongtin
+{
+    background-color: #FAFAFA;
+    height: 820px;
+    position: relative;
+    top: 75px;
+}
+.ttlienhe
+{
+    font-size: 28px;
+    font-weight: 550;
+    position: relative;
+    top: 80px;
+    left: 80px;
+}
+.row1
+{
+    font-size: 17.5px;
+    position: relative;
+    left: 66px;
+    top: 100px;
+}
+.haiodau
+{
+    border: none;
+    background-color: #EAEDED;
+    height: 38px;
+    width: 85%;
+}
+.ophai
+{
+    position: relative;
+    right: 50px;
+}
+.row2
+{
+    font-size: 17.5px;
+    position: relative;
+    left: 66px;
+    top: 130px;
+}
+.haiogiua
+{
+    border: none;
+    background-color: #EAEDED;
+    height: 38px;
+    width: 85%;
+}
+.row3
+{
+    font-size: 17.5px;
+    position: relative;
+    left: 2px;
+    top: 82px;
+}
+.ocuoi
+{
+    border: none;
+    background-color: #EAEDED;
+    font-size: 17.5px;
+    position: relative;
+    left: 81px;
+    top: 160px;
+    height: 38px;
+    width: 86.8%;
+}
+.thongtin input:focus
+{
+    background-color: #EBF8FA;
+    outline: none;
+    border-bottom: 1px solid #002D34;
+}
+.luu_y
+{
+    font-size: 20px;
+    position: relative;
+    top: 160px;
+    left: 80px;
+}
+.luachon
+{
+    position: relative;
+    top: 175px;
+    left: 80px;
+}
+.cau_hoi
+{
+    font-size: 28px;
+    font-weight: 550;
+}
+select
+{
+    width: 45%;
+    height: 38px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.select
+{
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-image: url("Images/arrow.png");
+	background-repeat: no-repeat;
+    background-position: right .7em top 50%, 0 0;
+	background-size: 1.2em auto, 100%;
+}
+.button-select
+{
+    width: 104px;
+    font-size: 17px;
+    font-weight: 550;
+    position: relative;
+    top: 220px;
+    left: 620px;
+}
+.button-select:hover 
+{  
+    background-color: #f90;
+    color:#232f3e;
+    box-shadow: 0 0 10px;
+}
+.button-select:focus
+{  
+    color: #232f3e;
+}
+.footer
+{
+    position: relative;
+    top: 75px;
+}
+.row_3cot_1
+{
+    background-color: #161E2D;
+    color: #fff;
+    height: 370px;
+}
+.cot_1
+{
+    padding: 0;
+    position: relative;
+    left: 95px;
+    top: 34px;
+}
+.cot_2
+{
+    padding: 0;
+    position: relative;
+    left: 76px;
+    top: 34px;
+}
+.cot_3
+{
+    padding: 0;
+    position: relative;
+    right: 20px;
+    top: 34px;
+}
+.row_3cot_1 h4
+{
+    font-size: 17px;
+}
+.p_cot1
+{
+    font-size: 13.5px;
+    line-height: 17px;
+    position: relative;
+    top: 8px;
+}
+.p_cot3
+{
+    font-size: 13.5px;
+    line-height: 17px;
+    position: relative;
+    top: 8px;
+}
+.button-row_2
+{
+    background-color: #fff;
+    width: 250px;
+    border: none;
+    text-align: center;
+    color: #161E2D;
+    font-size: 18px;
+    font-weight: 550;
+    position: relative;
+    top: 8px;
+    left: 0px;
+    border-radius: 100px;
+}
+.button-row_2:focus
+{
+    background-color: #fff;
+    width: 250px;
+    border: none;
+    text-align: center;
+    color: #161E2D;
+    font-size: 18px;
+    font-weight: 550;
+    position: relative;
+    top: 8px;
+    left: 0px;
+    border-radius: 100px;
+}
+.button-row_2:hover
+{
+    background-color: #fff;
+    color: #161E2D;
+}
+.cot_2 a
+{
+    position: relative;
+    top: 30px;
+}
+.qr
+{
+    position: relative;
+    top: 30px;
+}
+.apple
+{
+    position: relative;
+    left: 35px;
+}
+.android
+{
+    position: relative;
+    top: 62px;
+    right: 68px;
+}
+.hr-footer
+{
+    border-top: 1px solid #222E3D;
+    width: 1350px;
+    position: relative;
+    top: 100px;
+}
+.img-footer
+{
+    position: relative;
+    top: 100px;
+    left: 650px;
+}
+.p-footer
+{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    margin: 0;
+    margin-left: 20px;
+}
